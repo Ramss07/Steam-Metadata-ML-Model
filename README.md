@@ -1,6 +1,6 @@
 # Predicting Steam Game Review Sentiment Using Pre-Release Metadata
-Author: Ramley Hirneisen
-Machine Learning Final Project Report
+- Author: Ramley Hirneisen
+- Machine Learning Final Project Report
 
 ## 1. Introduction
 ### 1.1 Problem Statement
