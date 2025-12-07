@@ -1,18 +1,19 @@
-Predicting Steam Game Review Sentiment Using Pre-Release Metadata
+# Predicting Steam Game Review Sentiment Using Pre-Release Metadata
 Author: Ramley Hirneisen
 Machine Learning Final Project Report
-**1. Introduction**
-1.1 Problem Statement
+
+## 1. Introduction
+### 1.1 Problem Statement
 
 Steam reviews have become one of the most important indicators of how players feel about a game. Players use these reviews to decide whether a game is worth purchasing, and developers often rely on them to understand how their game is being received.
 This project explores whether it is possible to predict if a game will be reviewed positively using only pre-release metadata such as price, genres, categories, achievements, and platform support.
 
-1.2 Motivation
+### 1.2 Motivation
 
 As someone going into game development, I find the idea of using machine learning to understand or even predict how players might respond to a game before it launches extremely interesting. Developers typically have no way of knowing how their game will be received until after release, but metadata is something they already have long before launch.
 If metadata alone can give even a rough estimate of review sentiment, it could help with pricing, scope planning, or deciding how to position the game on the Steam store.
 
-1.3 Approach
+### 1.3 Approach
 
 I built a machine learning classifier that predicts whether a game will receive mostly positive reviews on Steam.
 Using the Steam Games Dataset 2025 from Kaggle, I:
@@ -27,7 +28,7 @@ Trained Logistic Regression and Random Forest models
 
 This allowed me to evaluate how far metadata alone can go when predicting player satisfaction.
 
-**2. Data**
+## 2. Data
 2.1 Introducing the Data
 
 The dataset contains 70,000+ Steam entries with fields such as:
