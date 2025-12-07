@@ -1,7 +1,7 @@
 Predicting Steam Game Review Sentiment Using Pre-Release Metadata
 Author: Ramley Hirneisen
 Machine Learning Final Project Report
-1. Introduction
+**1. Introduction**
 1.1 Problem Statement
 
 Steam reviews have become one of the most important indicators of how players feel about a game. Players use these reviews to decide whether a game is worth purchasing, and developers often rely on them to understand how their game is being received.
@@ -27,7 +27,7 @@ Trained Logistic Regression and Random Forest models
 
 This allowed me to evaluate how far metadata alone can go when predicting player satisfaction.
 
-2. Data
+**2. Data**
 2.1 Introducing the Data
 
 The dataset contains 70,000+ Steam entries with fields such as:
@@ -88,7 +88,7 @@ Removed review-related columns entirely (to avoid cheating)
 Final output:
 24,000 samples × 81 metadata features
 
-3. Machine Learning Methods
+**3. Machine Learning Methods**
 3.1 Label Creation
 
 Labels were created from the positive_percentual column:
@@ -117,7 +117,7 @@ Handles mixed feature types
 
 Produces feature importance scores
 
-4. Results
+**4. Results**
 4.1 Experimental Setup
 
 80/20 train–test split
@@ -168,7 +168,7 @@ Steam ecosystem integration features correlated with better reception
 
 Higher platform support (Mac/Linux) may indicate better engineering pipelines
 
-5. Conclusion
+**5. Conclusion**
 5.1 Closure
 
 This project showed that pre-release metadata can predict Steam review sentiment much better than expected. Achieving around 67 percent accuracy without any gameplay information suggests that how a game is presented and structured holds meaningful clues about how players will respond.
@@ -195,12 +195,12 @@ Sentiment analysis on user reviews
 
 Cluster analysis of metadata or genres
 
-6. References
+**6. References**
 
 Steam Games Dataset 2025. Kaggle, 2025.
 Pedregosa, Fabian, et al. “Scikit Learn: Machine Learning in Python.” Journal of Machine Learning Research, vol. 12, 2011.
 Lundberg, Scott M., and Su-In Lee. “A Unified Approach to Interpreting Model Predictions.” NeurIPS, 2017.
 
-7. Acknowledgement
+**7. Acknowledgement**
 
 I used ChatGPT to help debug parts of the preprocessing code and to help explain certain results as I went through the project. ChatGPT also helped me structure parts of this written report.
