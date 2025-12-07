@@ -26,15 +26,15 @@ This allowed me to evaluate how far metadata alone can go when predicting player
 ## 2. Data
 ### 2.1 Introducing the Data
 The dataset contains 70,000+ Steam entries with fields such as:
--developers
--publishers
--genres
--categories
--platforms
--release date
--price
--achievements
--user review statistics
+- developers
+- publishers
+- genres
+- categories
+- platforms
+- release date
+- price
+- achievements
+- user review statistics
 
 After filtering unreleased games and games with zero reviews, I further restricted the dataset to games with ≥10 reviews to avoid unstable review percentages.
 Final cleaned dataset:
